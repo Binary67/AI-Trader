@@ -24,10 +24,3 @@ Project Working Guidelines
 ## Research and Problem Solving
 - When encountering unfamiliar libraries or APIs, search the web for documentation and examples
 - If a library method is unclear, examine the library's source code package repository
-
-Work Presentation
-Clearly comment complex logic or non-obvious implementations
-Use descriptive variable and function names following Pascal Case
-Document any external resources or references used
-Highlight any areas where the DRY principle was applied through refactoring
-Note any lint rule exceptions with justification
