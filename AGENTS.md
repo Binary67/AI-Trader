@@ -15,6 +15,7 @@ Project Working Guidelines
 
 ## Validation Requirements
 - Run lint checks before finalizing any code changes
+- Always run `pylint` using the repo's `.pylintrc` before opening a pull request
 - Fix all linting errors and warnings
 - Write comprehensive unit tests for all new functions and classes
 - Ensure unit tests cover edge cases, error scenarios, and happy paths

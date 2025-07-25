@@ -1,0 +1,14 @@
+[MASTER]
+disable=missing-module-docstring,missing-class-docstring,missing-function-docstring,too-many-arguments,too-many-positional-arguments,consider-using-with,wrong-import-order
+
+[BASIC]
+variable-naming-style=PascalCase
+argument-naming-style=PascalCase
+good-names=self,cls
+attr-naming-style=PascalCase
+class-naming-style=PascalCase
+function-naming-style=PascalCase
+function-rgx=(__.*__|_?[A-Z][a-zA-Z0-9]*|test_.+)$
+method-naming-style=PascalCase
+method-rgx=(__.*__|_?[A-Z][a-zA-Z0-9]*|test_.+)$
+module-naming-style=any
