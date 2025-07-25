@@ -1,4 +1,5 @@
 from DataGeneration import DataGeneration
+from Agents.TraderAgent import TraderAgent
 
 
 def Main():
@@ -11,7 +12,9 @@ def Main():
         UseDummyData=True,
     )
 
-    print(Data.head())
+    Agent = TraderAgent(Data)
+    Decision = Agent.Analyze("Provide a trading decision based on the data")
+    print(Decision)
 
 
 if __name__ == "__main__":
