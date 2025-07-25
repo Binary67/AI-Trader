@@ -2,8 +2,8 @@ Project Working Guidelines
 
 ## File and Folder Organization
 - Work within the existing project structure
-- Use Pascal Case for all new folders and files (e.g., UserService.js, DataModels/, ApiControllers/)
-- Place all unit tests in the UnitTests/ folder with corresponding Pascal Case naming (e.g., UserServiceTests.js for UserService.js)
+- Use Pascal Case for all new folders and files (e.g., UserService.py, DataModels/, ApiControllers/)
+- Place all unit tests in the UnitTests/ folder with corresponding Pascal Case naming (e.g., UserServiceTests.py for UserService.py)
 - Maintain parallel folder structure in UnitTests/ that mirrors the source code organization
 
 ## Code Development Practices
