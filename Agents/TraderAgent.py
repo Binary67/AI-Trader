@@ -3,7 +3,9 @@ from langchain_openai import AzureChatOpenAI
 from langgraph.prebuilt import create_react_agent
 from Tools.EMACalculator import CreateEmaTool
 from Tools.RSICalculator import CreateRsiTool
+from dotenv import load_dotenv
 
+load_dotenv()
 
 class TraderAgent:
     def __init__(self, Data):
