@@ -1,7 +1,7 @@
 from DataGeneration import DataGeneration
 
 
-def main():
+def Main():
     Generator = DataGeneration()
     Data = Generator.DataDownloader(
         "AAPL",
@@ -15,4 +15,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    Main()
